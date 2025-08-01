@@ -1,10 +1,7 @@
-import Link from "next/link";
-
-export default function Page() {
+export default async function Page() {
 	return (
 		<div>
-			<h1>Home</h1>
-			<Link href="/about">About</Link>
+			<h1>Hello World!</h1>
 		</div>
 	);
 }
