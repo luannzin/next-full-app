@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { client } from "@/app/client/api";
+import { client } from "@/src/client/api";
 
 describe("main elysia server route", () => {
 	it("should return 200 on '/' route", async () => {
