@@ -19,7 +19,7 @@ export default defineConfig({
 				"**/next.config.*",
 				"**/postcss.config.*",
 				"**/.next/**",
-				"app/(frontend)/(routes)/layout.tsx",
+				"**/layout.tsx",
 			],
 		},
 	},
